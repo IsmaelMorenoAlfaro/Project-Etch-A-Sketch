@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 600px;
+    height: 400px;
+    /* border-left: 1px solid #000;
+    border-top: 1px solid #000; */
+    border: 1px solid #000;
+}
+
+.container div{ 
+    /* border-bottom: 1px solid #000;
+    border-right: 1px solid #000; */
+    display: flex;
+}
+
+button{
+    display: block;
+    margin: 1rem;
+}
+
+.active{
+    background-color: #0000ff;
+}
